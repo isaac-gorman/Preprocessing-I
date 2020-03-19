@@ -57,3 +57,493 @@ html, body {
     height: 100%;
 }
 
+@font-family: 'Product-Sans';
+
+.font-reg-mobile {
+	font-family: @font-family;
+	font-size: ;
+
+}
+
+
+.font-bld {
+
+}
+
+header{
+	width: 100%;
+	height: 40px;
+  
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+	position: absolute;
+	top: 0;
+	margin-bottom: 100px;
+
+	img {
+		width: 80px;
+		margin-top: 50px; 
+	}//   Header Img End
+  }//   Header End
+
+// Intro Section --------------------
+
+.intro {
+	margin-top: 100px;
+	width: 100vw;
+	background-color: black;
+	height: 500px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	h1 {
+		width: 220px;
+		height: 150px;
+
+		font-family: @font-family;
+		font-size: 32px;
+		font-style: normal ;
+		font-weight: normal;
+		color: white;
+		text-align: center;
+		line-height: 39px;
+	} // Heading 1 End
+
+	@media (min-width: 768px) {
+		height: 800px;
+
+		h1 {
+			width: 320px;
+			font-size: 48px; 
+			line-height: 58px;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		height: 900px;
+
+		h1 {
+			width: 420px;
+			font-size: 64px;
+			line-height: 78px;
+		}
+	}
+
+} // Intro End
+
+// Intro Section --------------------
+  
+  
+// Bio Section -------------------
+.bio {
+
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin: 150px auto;
+
+
+	@media (min-width: 768px) {
+		width: 65%;
+	} 	// Media Q	
+
+
+	@media (min-width: 1100px) {
+		width: 40%;
+	} 	// Media Q	
+
+	.info {
+		h1{
+			font-family: @font-family;
+			font-size: 36px;
+			font-style: normal;
+			font-weight: bold;
+
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		h2 {
+			font-family: @font-family;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: normal;
+
+			width: 100px;
+		}
+		h3 {
+			font-size: 14px;
+			font-style: normal;
+			font-weight: bold;
+		}
+
+		@media (min-width: 768px) {
+			h1 {
+				width: 180px;
+				font-size: 48px; 
+			}
+			h2 {
+				font-size: 20px;
+				font-style: normal;
+				font-weight: normal;
+			}
+			h3 {
+				font-size: 16px;
+			}
+		} 	// Media Q
+
+
+	} 	// Info End
+	
+
+
+
+	.me {
+		img {
+			width: 160px ;
+		}
+
+		@media (min-width: 768px) {
+			img {
+				width: 280px
+			}
+		} 	// Media Q
+
+	}
+	// Me Image
+
+} // Bio Section End --
+
+
+// Bio Section -------------------
+
+
+
+// Overview Section -------------------
+.overview {
+	width: 85%; 
+	margin: 0 auto;
+
+
+	h1 {
+		font-family: @font-family;
+		font-size: 26px;
+		font-style: normal;
+		font-weight: bold;
+
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-family: @font-family;
+		font-size: 14px;
+		line-height: 15px;
+		font-style: normal;
+		font-weight: normal;
+
+		margin-bottom: 100px;
+	}
+
+	@media (min-width: 768px) {
+	width: 70%;
+
+		h1{ 
+			font-size: 32px;
+		}
+
+		p{ 
+			font-size: 18px;
+			line-height: 17px;
+		}
+	} 	// Media Q	
+
+	@media (min-width: 1100px) {
+
+			width: 400px;
+
+	}	// Media Q	
+
+
+}// Overview Container
+
+// Overview Section -------------------
+
+
+// b-o-container section ---------
+
+@media (min-width: 1100px) {
+
+
+		.b-o-container {
+			width: 95%;
+			display: flex;
+			margin: auto;
+
+			justify-content: space-between;
+			align-content: center;
+			align-items: center;
+		}
+	}	// Media Q	
+
+
+// b-o-container section ---------
+
+
+
+
+.divider {
+	width: 90%;
+	border: .5px solid black ;
+	margin: auto;
+}
+
+// My Skills Section -------------------
+
+.mySkils {
+
+	width: 100vw;
+	background: #F2F2F2;;
+
+	height: 650px;
+
+	.divider {
+		width: 90%;
+		border: .5px solid black ;
+		margin: auto;
+	}
+
+	.intro-skills{
+		width: 200px;
+		margin: 0 auto;
+
+		h1 {
+			font-family: 'La Belle Aurore', cursive;
+			font-size: 48px;
+			padding-top: 40px;
+			width: 210px ;
+			text-align: center;
+		}
+
+		h3 {
+			margin-top: -10px; 
+			margin-bottom: 20px;
+			text-align: right;
+		}
+
+	}
+
+	.skill-container{
+		margin-top: 30px;
+	}
+
+
+	.skill {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between ;
+
+		width: 275px;
+		margin: auto;
+		margin-top: 20px;
+
+		img {
+			width: 60px;
+		}
+	}
+
+	.skill-info{
+
+		margin-bottom: 30px;
+		
+
+		h2{
+
+			font-family: @font-family;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: bold;
+	
+			margin-top: 10px;
+			margin-bottom: 4px;
+		}
+
+		p {
+			font-size: 12px;
+			width: 160px;
+		}
+	}
+
+
+}
+// My Skills Section -------------------
+
+
+
+// Work Experince Section -------------------
+
+.work-experince {
+	width: 90%;
+	height: 800px;
+	margin: auto;
+}
+
+.ex-intro{
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	h1{
+		text-align: center;
+		font-family: @font-family;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+	}
+}
+
+.divider{
+	width: 100%;
+}
+
+.experience {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content:space-evenly ;
+
+	margin-top: 60px;
+	margin-bottom: 60px;
+
+	.logo {
+
+		img {
+			width: 60px;
+		}
+	}
+}
+
+.experince-info {
+
+	span {
+		font-family: @font-family;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: bold;
+		padding-right: 20px;
+	}
+
+	h2 {
+		font-family: @font-family;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: normal;
+
+	}
+
+	p {
+		font-family: @font-family;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: normal;
+		width: 160px;
+		line-height: 15px;
+	}
+}
+
+
+.etho{
+	width:60px;
+}
+
+// Work Experince Section -------------------
+
+//  Footer Section -------------------
+
+footer {
+	height: 250px;
+	width: 100vw;
+
+	background-color: #F2F2F2;
+
+
+	.contact {
+		width: 300px ; 
+		margin: auto ;
+		padding-top: 50px;
+		display: flex;
+		flex-direction: column;
+
+		align-content: center;
+		align-items: center;
+	
+
+		h1 {
+			text-align:center;
+			font-family: @font-family;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: bold;
+		}
+
+		button {
+			width: 80px;
+			height: 30px;
+
+			border: 1px solid black;
+			border-radius: 3px;
+			background-color: #F2F2F2;
+
+
+
+			font-family: @font-family;
+			font-size: 11px;
+			font-style: normal;
+			font-weight: normal;
+
+			margin-top: 12px;
+			margin-bottom: 12px;
+		}
+	}
+
+
+	.divider {
+		width: 90%;
+
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	ul {
+		display: flex;
+		width: 90%;
+		margin: auto;
+
+		.social {
+			flex: .25;
+
+			img {
+				width: 20px;
+			}
+		}
+
+
+		.f-b-logo {
+			text-align: right;
+			flex: 2;
+		}
+
+		.b-logo{
+			width: 56px ;
+		}
+	}
+
+}
+
+
+//  Footer Section -------------------
+
